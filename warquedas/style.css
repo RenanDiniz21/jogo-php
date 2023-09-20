@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+} 
+#startpage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+a {
+    text-align: center;
+    display: block;
+    pointer-events: stroke;
+    background: none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    font-size: 40px;
+    border: 1px solid white;
+    width: 300px;
+    height: auto;
+}
+
+li:hover, li a:hover{
+    transition-duration: 0.3s;
+    background-color: white;
+    color: black;
+}
+#credits{
+    position: absolute;
+    top: 100%;
+    font-size: 70px;
+    animation: 60s credits linear infinite;
+}
+@keyframes credits {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -500%;
+    }
+  }
