@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <audio autoplay loop src="../audio/the-best-jazz-club-in-new-orleans-164472.mp3"></audio>
+    <input type="range" id="vol" max="1" min="0" step="0.01" onchange="changevolume(this.value)" />
+    <button type="button" onclick="exit_fullscreen()">tela cheia</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
+</body>
+</html>

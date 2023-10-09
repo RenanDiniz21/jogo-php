@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Comic Sans MS;
+} 
+#startpage {
+    background-image: url(img/titulo.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+a {
+    text-align: center;
+    display: block;
+    pointer-events: stroke;
+    background: none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    font-size: 40px;
+    border: 1px solid white;
+    width: 300px;
+    height: auto;
+    border-radius: 20%;
+}
+
+li:hover, li a:hover{
+    border-radius: 20%;
+    transition-duration: 0.3s;
+    background-color: rgb(255, 187, 0);
+    color: black;
+}
+#credits{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: center;
+    left: 37%;
+    top: 100%;
+    font-size: 70px;
+    animation: 60s credits linear infinite;
+}
+@keyframes credits {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -500%;
+    }
+  }
+
+  
